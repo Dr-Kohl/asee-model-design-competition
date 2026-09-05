@@ -1,0 +1,7 @@
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+
+# Do not accidentally publish source or working copies before approval
+*.bak
+*~
