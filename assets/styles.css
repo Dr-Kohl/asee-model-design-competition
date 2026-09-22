@@ -26,6 +26,8 @@ main { padding:54px 0 72px; }
 .section-heading p:last-child { margin-bottom:0; }
 .resource-grid { display:grid; grid-template-columns:repeat(4, 1fr); gap:18px; }
 .resource-grid article { min-height:270px; display:flex; flex-direction:column; padding:28px; background:white; border-top:5px solid var(--mint); box-shadow:0 2px 0 rgba(23,49,58,.12); }
+.file-list { display:grid; grid-template-columns:repeat(3, 1fr); gap:10px 22px; margin:0; padding:0; list-style:none; }
+.file-list li { padding:11px 0; border-top:1px solid var(--line); font-family:Arial,sans-serif; font-size:.9rem; }
 .number { color:var(--orange); }
 .resource-grid p:last-child { margin-bottom:0; font-size:.96rem; }
 .availability { margin-top:auto; font-family:Arial,sans-serif; font-size:.75rem !important; font-weight:bold; letter-spacing:.1em; text-transform:uppercase; color:#52636a; }
@@ -45,5 +47,5 @@ a { color:#8f3c16; text-decoration-thickness:1px; text-underline-offset:3px; }
 footer { padding:27px 0; color:#d5e3de; background:var(--ink); font-family:Arial,sans-serif; font-size:.82rem; }
 .footer-content { display:flex; justify-content:space-between; gap:25px; }
 .footer-content p { margin:0; }
-@media (max-width:850px) { .resource-grid { grid-template-columns:repeat(2, 1fr); } }
-@media (max-width:700px) { .site-header { padding:54px 0 45px; } .current-hero,.updates,.footer-content { display:block; } .hero-actions { margin-top:26px; } .resource-grid { grid-template-columns:1fr; } .updates { padding:36px 0; } .updates > div + div { margin-top:38px; } .update-list li { grid-template-columns:1fr; gap:3px; } .archive-panel { padding:28px; } }
+@media (max-width:850px) { .resource-grid { grid-template-columns:repeat(2, 1fr); } .file-list { grid-template-columns:repeat(2, 1fr); } }
+@media (max-width:700px) { .site-header { padding:54px 0 45px; } .current-hero,.updates,.footer-content { display:block; } .hero-actions { margin-top:26px; } .resource-grid,.file-list { grid-template-columns:1fr; } .updates { padding:36px 0; } .updates > div + div { margin-top:38px; } .update-list li { grid-template-columns:1fr; gap:3px; } .archive-panel { padding:28px; } }
