@@ -24,6 +24,9 @@ main { padding:54px 0 72px; }
 .section-heading { max-width:670px; margin-bottom:28px; }
 .section-heading h2 { margin-bottom:10px; }
 .section-heading p:last-child { margin-bottom:0; }
+.field-figure { max-width:950px; margin:0 auto 62px; padding:18px; background:white; box-shadow:0 2px 0 rgba(23,49,58,.12); }
+.field-figure img { display:block; width:100%; height:auto; }
+.field-figure figcaption { margin-top:12px; font-family:Arial,sans-serif; font-size:.82rem; color:#52636a; text-align:center; }
 .resource-grid { display:grid; grid-template-columns:repeat(4, 1fr); gap:18px; }
 .resource-grid article { min-height:270px; display:flex; flex-direction:column; padding:28px; background:white; border-top:5px solid var(--mint); box-shadow:0 2px 0 rgba(23,49,58,.12); }
 .file-list { display:grid; grid-template-columns:repeat(3, 1fr); gap:10px 22px; margin:0; padding:0; list-style:none; }
